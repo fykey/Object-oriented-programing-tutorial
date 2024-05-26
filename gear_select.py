@@ -2,6 +2,8 @@ from gear import Gear
 
 # インスタンス""mountain_bike_gear"を作成
 mountain_bike_gear = Gear("mountain", 18) 
+print(mountain_bike_gear.gear_type)
+print(mountain_bike_gear.num_gears)
 
 mountain_bike_gear.shift_up()
 mountain_bike_gear.shift_up()
