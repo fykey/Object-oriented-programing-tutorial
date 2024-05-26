@@ -10,6 +10,7 @@ class Gear:
         self.gear_type = gear_type
         self.num_gears = num_gears
         self.current_gear = 1
+        print(f"{self.gear_type}バイクのギアを{self.num_gears}段階で初期化しました。")
 
     def shift_up(self):
         """ギアを一段上げる"""
@@ -30,7 +31,3 @@ class Gear:
     def get_current_gear(self):
         """現在のギアを取得する"""
         return self.current_gear
-
-    def __str__(self):
-        """オブジェクトの文字列表現を返す"""
-        return f"Gear Type: {self.gear_type}, Number of Gears: {self.num_gears}, Current Gear: {self.current_gear}"
